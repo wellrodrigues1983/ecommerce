@@ -52,7 +52,7 @@ class Page {
 
 	public function __destruct(){
 
-		
+		//if ($this->options["footer"] === true) $this->tlp->draw("footer");
 
 	}
 
